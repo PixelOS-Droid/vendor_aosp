@@ -194,7 +194,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # TouchGestures
 PRODUCT_PACKAGES += \
-    TouchGestures
+    TouchGestures \
+    TouchGesturesSettingsOverlay
 
 # These packages are excluded from user builds
 PRODUCT_PACKAGES_DEBUG += \
