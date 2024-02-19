@@ -233,7 +233,7 @@ PRODUCT_PACKAGES += \
     DocumentsUIOverlay \
     NetworkStackOverlay \
     NavigationBarNoHintOverlay \
-    ThemedIconsOverlay
+    PixelLauncherIconsOverlay
 
 # TextClassifier
 PRODUCT_PACKAGES += \
