@@ -16,6 +16,15 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.com.google.clientidbase=$(PRODUCT_GMS_CLIENTID_BASE)
 endif
 
+# Google Prebuilt Recorder
+TARGET_SUPPORTS_GOOGLE_RECORDER := ture
+
+# Google Prebuilt LiveWallpapers
+TARGET_INCLUDE_LIVE_WALLPAPERS := ture
+
+# Google ARCore
+TARGET_INCLUDE_STOCK_ARCORE := ture
+
 ifeq ($(TARGET_BUILD_VARIANT),eng)
 # Disable ADB authentication
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=0
