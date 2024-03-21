@@ -269,4 +269,7 @@ include vendor/aosp/config/version.mk
 # OTA
 $(call inherit-product, vendor/aosp/config/ota.mk)
 
+# Stuffs
+$(call inherit-product-if-exists, vendor/aosp/extras/config.mk)
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
