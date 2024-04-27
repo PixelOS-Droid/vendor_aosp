@@ -38,6 +38,8 @@
         <item>com.google.android.gms</item>
         <!-- The standard AOSP fused location provider -->
         <item>com.android.location.fused</item>
+        <!-- The MicroG Unified location provider -->
+        <item>org.microg.nlp</item>
     </string-array>
 
     <string-array name="config_locationExtraPackageNames" translatable="false">
@@ -45,12 +47,20 @@
         <item>com.android.bluetooth</item>
         <!-- TeleService -->
         <item>com.android.phone</item>
+        <!-- Google Dialer -->
+        <item>com.google.android.dialer</item>
         <!-- CneApp -->
         <item>com.qualcomm.qti.cne</item>
         <!-- ImsService -->
         <item>com.shannon.imsservice</item>
         <!-- MediaTek ImsService -->
         <item>com.mediatek.ims</item>
+        <!-- OmniJaws -->
+        <item>org.omnirom.omnijaws</item>
+        <!-- SystemUI -->
+        <item>com.android.systemui</item>
+        <!-- Tethering -->
+        <item>com.android.networkstack.tethering</item>
     </string-array>
 
     <!-- The list of components which should be automatically disabled for all devices. -->
